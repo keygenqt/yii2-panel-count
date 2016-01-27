@@ -1,3 +1,53 @@
+.yii2-panel-count table {
+    width: 100%;
+    border: none;
+    padding: 0;
+    font-size: 15px;
+}
+.yii2-panel-count table td {
+    position: relative;
+}
+.yii2-panel-count table .text .text-block {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding-left: 5px;
+}
+.yii2-panel-count table .icon {
+    width: 40px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 30px;
+}
+.yii2-panel-count table .count {
+    padding-left: 5px;
+}
 .yii2-panel-count {
-	
+    border: 1px solid #16bb25;
+    background: #deffd9;
+    color: #00691d;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 13px;
+}
+.yii2-panel-count .fa {
+    margin-right: 5px;
+}
+.yii2-panel-count .fa.fa-caret-up {
+    color: #00691d; 
+    font-size: 17px;
+    position: relative;
+    top: -1px;
+}
+.yii2-panel-count .fa.fa-caret-down {
+    color: #f95578; 
+    font-size: 17px;
+    position: relative;
+    top: 1px;
 }

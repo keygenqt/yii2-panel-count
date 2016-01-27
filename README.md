@@ -28,8 +28,16 @@ The latest version of the module is v0.5.0 `BETA`.
 ## Usage
 
 ```php
+use \keygenqt\panelCount\PanelCount;
 
-
+<?= PanelCount::widget([
+	'icon'      => 'fa fa-user',
+	'count'     => 124.50,
+	'title'     => 'My title',
+	'duration'  => 1000,
+	'format'    => true,
+	'up'        => true
+]) ?>
 ```
 
 ## License
