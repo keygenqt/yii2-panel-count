@@ -40,10 +40,7 @@
     margin-right: 5px;
 }
 .yii2-panel-count .fa.fa-caret-up {
-    color: #00691d; 
     font-size: 17px;
-    position: relative;
-    top: -1px;
 }
 .yii2-panel-count .fa.fa-caret-down {
     color: #f95578; 
