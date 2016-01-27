@@ -19,7 +19,7 @@ class PanelCount extends \yii\base\Widget
     public function run()
     {
         $this->id = $this->getId();
-        BowerAssets::register($this->getView());
+        FontAwesomeAsset::register($this->getView());
         ActiveAssets::register($this->getView());
                 
         if (self::$counterPanelCount == 1 && $this->format) {
