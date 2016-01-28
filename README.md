@@ -12,13 +12,7 @@ Either add
 ```
 "require": {
     "keygenqt/yii2-panel-count": "*"
-},
-"repositories":[
-    {
-        "type": "git",
-        "url": "https://github.com/keygenqt/yii2-panel-count.git"
-    }
-]
+}
 ```
 
 of your `composer.json` file.
