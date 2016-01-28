@@ -1,6 +1,6 @@
 {
 	"name": "keygenqt/yii2-panel-count",
-	"description": "Widget from form image ajax load.",
+	"description": "Panel animation number.",
 	"keywords": ["yii2", "extension", "widget", "jquery", "plugin"],
 	"homepage": "https://github.com/keygenqt/yii2-panel-count",
 	"type": "yii2-extension",

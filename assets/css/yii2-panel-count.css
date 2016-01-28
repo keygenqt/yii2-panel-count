@@ -35,6 +35,21 @@
     margin-bottom: 20px;
     font-size: 13px;
 }
+.yii2-panel-count.panel-cadetblue {
+	border: 1px solid #1E5E61;
+	background: #C8F1F3;
+	color: #1E5E61;
+}
+.yii2-panel-count.panel-darkmagenta {
+    border: 1px solid #3d0047;
+    background: rgb(223, 203, 228);
+    color: #3d0047;
+}
+.yii2-panel-count.panel-tomato {
+    border: 1px solid #8A200C;
+    background: #FFA898;
+    color: #8A200C;
+}
 .yii2-panel-count .fa {
     margin-right: 5px;
 }

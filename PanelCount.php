@@ -13,6 +13,7 @@ class PanelCount extends \yii\base\Widget
     public $duration = 800;
     public $format = false;
     public $up;
+    public $color;
     
     private static $counterPanelCount = 1;
 

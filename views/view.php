@@ -4,7 +4,7 @@
 
 ?>
 
-<div class="yii2-panel-count panel-count-green">
+<div class="yii2-panel-count panel-<?= $widget->color ?>">
     <table>
         <tr> 
             <td <?php if (!$widget->icon): ?>style="display: none;"<?php endif; ?> class="icon" rowspan="2">
