@@ -1,5 +1,8 @@
-yii2-panel-count
+Panel Count
 ===================
+
+![GitHub](https://img.shields.io/github/license/keygenqt/yii2-panel-count)
+![Packagist Downloads](https://img.shields.io/packagist/dt/keygenqt/yii2-panel-count)
 
 Panel animation number.
 
@@ -16,10 +19,6 @@ Either add
 ```
 
 of your `composer.json` file.
-
-## Latest Release
-
-The latest version of the module is v0.5.0 `BETA`.
 
 ## Usage
 
@@ -65,9 +64,3 @@ The latest version of the module is v0.5.0 `BETA`.
 ## Screenshot
 
 ![Alt text](https://raw.githubusercontent.com/keygenqt/yii2-panel-count/master/screenshot/example.png?raw=true "Empty")
-
-## License
-
-**yii2-panel-count** is released under the BSD 3-Clause License. See the bundled `LICENSE.md` for details.
-
-
