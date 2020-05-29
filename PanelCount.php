@@ -25,15 +25,21 @@ class PanelCount extends \yii\base\Widget
     public $icon = '';
     public $count = 10;
     public $title = 'Title';
-    public $duration = 800;
+    public $duration = 500;
     public $format = false;
     public $up;
     public $color;
+
+    public $symbol;
     
     private static $counterPanelCount = 1;
 
     public function run()
     {
+        if (!is_numeric($this->count) && !is_float($this->count)) {
+            $this->symbol = preg_replace('/([\d\.]+)/', '', "{$this->count}");
+            $this->count = str_replace($this->symbol, '', $this->count);
+        }
         $this->id = $this->getId();
         FontAwesomeAsset::register($this->getView());
         ActiveAssets::register($this->getView());

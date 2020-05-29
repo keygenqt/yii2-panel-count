@@ -71,9 +71,9 @@
             complete: function() {
                 <?php if ($widget->format): ?>
                     var total = parseInt('<?= $widget->count ?>');
-                    $(this).html(panelCountFormat(total + html, '.'));
+                    $(this).html(panelCountFormat(total + html, '.') + '<?= $widget->symbol ?>');
                 <?php else: ?>
-                    $(this).html('<?= $widget->count ?>');
+                    $(this).html('<?= $widget->count . $widget->symbol ?>');
                 <?php endif; ?>
             }
         });
