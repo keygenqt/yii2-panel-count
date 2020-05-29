@@ -31,12 +31,13 @@ of your `composer.json` file.
 ]) ?>
 
 <?= keygenqt\panelCount\PanelCount::widget([
-    'icon'      => 'fas fa-bookmark',
-    'count'     => 124.50 . ' $',
-    'title'     => 'My bookmark',
-    'duration'  => 1000,
-    'up'        => true,
-    'color'     => 'cadetblue'
+    'icon' => 'fas fa-bookmark',
+    'count' => 124.50 . ' $',
+    'title' => 'My bookmark',
+    'duration' => 1000,
+    'up' => true,
+    'color' => 'cadetblue',
+    'format' => true,
 ]) ?>
 
 <?= keygenqt\panelCount\PanelCount::widget([
