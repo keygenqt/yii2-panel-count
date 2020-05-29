@@ -1,10 +1,10 @@
-Panel Count
+[Panel Count](http://keygenqt.com/work/yii2-panel-count)
 ===================
 
 ![GitHub](https://img.shields.io/github/license/keygenqt/yii2-panel-count)
 ![Packagist Downloads](https://img.shields.io/packagist/dt/keygenqt/yii2-panel-count)
 
-Panel animation number.
+Panel animation number
 
 ## Installation
 
@@ -23,42 +23,35 @@ of your `composer.json` file.
 ## Usage
 
 ```php
-<div class="row">
-	<div class="col-md-3">
-		<?= keygenqt\panelCount\PanelCount::widget([
-			'icon'      => 'fa fa-video-camera',
-			'count'     => 155.50,
-			'title'     => 'My title',
-			'format'    => true,
-		]) ?>
-	</div>
-	<div class="col-md-3">
-		<?= keygenqt\panelCount\PanelCount::widget([
-			'icon'      => 'fa fa-user',
-			'count'     => 124.50 . ' $',
-			'title'     => 'My title',
-			'duration'  => 1000,
-			'up'        => true,
-			'color'     => 'cadetblue'
-		]) ?>
-	</div>
-	<div class="col-md-3">
-		<?= keygenqt\panelCount\PanelCount::widget([
-			'icon'      => 'fa fa-users',
-			'count'     => 19999,
-			'title'     => 'My title',
-			'up'        => false,
-			'color'     => 'darkmagenta'
-		]) ?>
-	</div>
-	<div class="col-md-3">
-		<?= keygenqt\panelCount\PanelCount::widget([
-			'count'     => 19999,
-			'title'     => 'My title',
-			'color'     => 'tomato'
-		]) ?>
-	</div>
-</div>
+<?= keygenqt\panelCount\PanelCount::widget([
+    'icon'      => 'fas fa-book',
+    'count'     => 155.50,
+    'title'     => 'My books',
+    'format'    => true,
+]) ?>
+
+<?= keygenqt\panelCount\PanelCount::widget([
+    'icon'      => 'fas fa-bookmark',
+    'count'     => 124.50 . ' $',
+    'title'     => 'My bookmark',
+    'duration'  => 1000,
+    'up'        => true,
+    'color'     => 'cadetblue'
+]) ?>
+
+<?= keygenqt\panelCount\PanelCount::widget([
+    'icon'      => 'fas fa-font',
+    'count'     => 19999,
+    'title'     => 'My font',
+    'up'        => false,
+    'color'     => 'darkmagenta'
+]) ?>
+
+<?= keygenqt\panelCount\PanelCount::widget([
+    'count'     => 19999,
+    'title'     => 'My title',
+    'color'     => 'tomato'
+]) ?>
 ```
 
 ## Screenshot
