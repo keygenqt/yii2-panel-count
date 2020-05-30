@@ -1,6 +1,6 @@
 {
 	"name": "keygenqt/yii2-panel-count",
-	"description": "Panel animation number.",
+	"description": "Panel animation number",
 	"keywords": ["yii2", "extension", "widget", "jquery", "plugin"],
 	"homepage": "https://github.com/keygenqt/yii2-panel-count",
 	"type": "yii2-extension",
