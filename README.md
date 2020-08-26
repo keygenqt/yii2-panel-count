@@ -1,4 +1,4 @@
-[Panel Count](http://keygenqt.com/work/yii2-panel-count)
+[Panel Count](https://keygenqt.com/work/yii2-panel-count)
 ===================
 
 ![GitHub](https://img.shields.io/github/license/keygenqt/yii2-panel-count)
